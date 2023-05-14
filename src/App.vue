@@ -1,32 +1,24 @@
+<!-- 
+  레이어는 항상 트리 구조로 가야 한다.
+  flex 를 사용할 때는 min-width, min-height를 꼭 잡아야 한다.
+-->
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
     <router-view />
   </div>
 </template>
 
-<style lang="scss">
+<script>
+import './assets/global.scss';
+
+export default {
+  data: () => ({}),
+};
+</script>
+
+<style lang="scss" scoped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  width: 100%;
+  height: 100vh;
 }
 </style>

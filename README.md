@@ -26,8 +26,8 @@ npm run lint
 
 ### Vue Study
 
-(구현완료) 레이아웃 완성
-(구현완료) store를 이용한 기능 추가 => StudyStore.vue
+(구현완료) 레이아웃 완성  
+(구현완료) store를 이용한 기능 추가 => StudyStore.vue  
 (구현필요) router와 route 차이
 
 ```

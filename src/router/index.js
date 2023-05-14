@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import StudyMain from '../views/StudyMain.vue';
-import StudyStore from '../components/StudyStore.vue';
+import StudyStore from '../views/StudyStore.vue';
 
 Vue.use(VueRouter);
 
